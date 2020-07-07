@@ -1,3 +1,6 @@
 /.vs/AspNetCoreWithMongo/v16/.suo
 /src/Api/AspNetCoreWithMongo.Api/.vs/AspNetCoreWithMongo.Api/v16/.suo
 /src/Api/AspNetCoreWithMongo.Api/.vs/AspNetCoreWithMongo.Api/DesignTimeBuild/.dtbcache.v2
+/src/Api/AspNetCoreWithMongo.Api/bin/Debug/netcoreapp3.1/AspNetCoreWithMongo.Api.dll
+/src/Api/AspNetCoreWithMongo.Api/bin/Debug/netcoreapp3.1/AspNetCoreWithMongo.Api.exe
+/src/Api/AspNetCoreWithMongo.Api/bin/Debug/netcoreapp3.1/AspNetCoreWithMongo.Api.pdb
