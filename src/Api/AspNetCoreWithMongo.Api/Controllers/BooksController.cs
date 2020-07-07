@@ -33,7 +33,6 @@ namespace AspNetCoreWithMongo.Api.Controllers
 
         [HttpGet("{id:length(24)}",Name = "GetBook")]
         public ActionResult<Book> Get(string id)
-
         {
             var book = _bookService.Get(id);
 
