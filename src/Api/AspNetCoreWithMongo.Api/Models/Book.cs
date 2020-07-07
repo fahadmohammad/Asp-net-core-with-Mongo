@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace AspNetCoreWithMongo.Api.Models
         public string Id { get; set; }
 
         [BsonElement("Name")]
+        [JsonProperty("Name")]
         public string BookName { get; set; }
         public string Author { get; set; }
         public string Category { get; set; }

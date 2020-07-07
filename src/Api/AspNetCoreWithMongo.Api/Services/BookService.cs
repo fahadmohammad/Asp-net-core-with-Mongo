@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using MongoDB.Bson;
 
 namespace AspNetCoreWithMongo.Api.Services
 {
@@ -19,7 +21,7 @@ namespace AspNetCoreWithMongo.Api.Services
         }
 
         public List<Book> Get() =>
-            _books.Find(book => true).ToList();
+            _books.Find(new BsonDocument()).ToList();
         public Book Get(string id) =>
             _books.Find(book => book.Id == id).FirstOrDefault();
         public Book Create(Book book)

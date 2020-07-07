@@ -29,6 +29,7 @@ namespace AspNetCoreWithMongo.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<BookStoreDbSettings>(Configuration.GetSection(nameof(BookStoreDbSettings)));
+
             services.AddSingleton<IDbSettings>(sp => sp.GetRequiredService<IOptions<BookStoreDbSettings>>().Value);
             services.AddSingleton<BookService>();
 

@@ -10,14 +10,11 @@
         "projectUniqueName": "E:\\MyRepos\\Asp-net-core-with-Mongo\\src\\Api\\AspNetCoreWithMongo.Api\\AspNetCoreWithMongo.Api.csproj",
         "projectName": "AspNetCoreWithMongo.Api",
         "projectPath": "E:\\MyRepos\\Asp-net-core-with-Mongo\\src\\Api\\AspNetCoreWithMongo.Api\\AspNetCoreWithMongo.Api.csproj",
-        "packagesPath": "C:\\Users\\Fahad\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\fahad\\.nuget\\packages\\",
         "outputPath": "E:\\MyRepos\\Asp-net-core-with-Mongo\\src\\Api\\AspNetCoreWithMongo.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fahad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
